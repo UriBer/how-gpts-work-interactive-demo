@@ -12,7 +12,7 @@ It includes each core stage: tokenization, embeddings, self-attention, sentence 
 
 ```bash
 pip install -r requirements.txt
-python home.py
+python 00-initial-setup.py
 
 ```
 
@@ -48,10 +48,10 @@ interactive-demo-how-gpts-work/
 │   ├── 03-text-generation.py      # מסך 3 / Page 3
 │   ├── 04-training-simulation.py  # מסך 4 / Page 4
 │   └── 05-visuals.py              # מסך 5 / Page 5
-├── download_models.py             # הורדת מודלים / Model downloader
+├── 00-initial-setup.py            # הורדת מודלים / Model downloader
 ├── models/                        # מודלים / Saved models
 │   ├── bert-base-multilingual-cased/
-│   └── gpt2/
+│   └── hebrew-gpt-neo/
 └── README.md
 ```
 
